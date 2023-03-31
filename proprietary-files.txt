@@ -283,6 +283,12 @@ vendor/etc/thermal-engine-kiev.conf
 vendor/firmware/focaltech-csot-ft8756-05-0000-kiev.bin
 vendor/firmware/focaltech-tm-ft8756-07-0000-kiev.bin
 
+# Recovery firmware
+vendor/firmware/aw8624_haptic.bin:recovery/root/vendor/firmware/aw8624_haptic.bin
+vendor/firmware/aw8624_rtp.bin:recovery/root/vendor/firmware/aw8624_rtp.bin
+vendor/firmware/focaltech-csot-ft8756-05-0000-kiev.bin:recovery/root/vendor/firmware/focaltech-csot-ft8756-05-0000-kiev.bin
+vendor/firmware/focaltech-tm-ft8756-07-0000-kiev.bin:recovery/root/vendor/firmware/focaltech-tm-ft8756-07-0000-kiev.bin
+
 # Vibrator firmware
 vendor/firmware/aw8624_haptic.bin
 vendor/firmware/aw8624_osc_rtp_24K_5s.bin
