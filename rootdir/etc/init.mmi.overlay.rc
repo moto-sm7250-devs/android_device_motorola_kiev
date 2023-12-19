@@ -63,6 +63,9 @@ on boot
    # Change ownership and permission for fm control intf
    chown system system /sys/devices/platform/soc/soc:fm_wcn39x0/elna_en
 
+   # Use lagoon powerhint config
+   setprop vendor.powerhal.config "powerhint_lagoon.json"
+
    # Set adaptive charging perms for HAL
    chown system system /sys/module/qpnp_adaptive_charge/parameters/upper_limit
    chown system system /sys/module/qpnp_adaptive_charge/parameters/lower_limit
