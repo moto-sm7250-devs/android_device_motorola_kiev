@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kiev.mk
+    $(LOCAL_DIR)/lmodroid_kiev.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_kiev-eng \
-    lineage_kiev-user \
-    lineage_kiev-userdebug
+    lmodroid_kiev-eng \
+    lmodroid_kiev-user \
+    lmodroid_kiev-userdebug
